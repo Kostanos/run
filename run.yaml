@@ -1,0 +1,12 @@
+build:
+  commands:
+    - echo 'test build 1'
+    - echo 'test build 2'
+    # - pip install -r ./configs/requirements.$ENV}.txt
+run:
+  maxRepeats: 5
+  repeatDelay: 1
+  commands:
+    - echo 'test run 1 ${repeatDelay}'
+    - dsafedsfsd
+    # - gunicorn manage:app -c ./configs/gunicorn.{}.py
